@@ -11,7 +11,7 @@ object pepita {
 	
 	// metodos nuevos
 	method estaDebil() { return true }  // implementar
-	method estaFeliz() { return true }  // implementar
+	method estaFeliz() {return energia < 500 and energia > 1000 }  // implementar
 	
 	method cuantoQuiereVolar() { 
 		var cuanto = energia / 5
